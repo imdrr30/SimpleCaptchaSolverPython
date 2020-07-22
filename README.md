@@ -1,2 +1,2 @@
 # SimpleCaptchaSolverPython
-Simple Captcha Solver using python without(machinelearning) by comparing image.
+Simple Captcha Solver using python(Without MachineLearning) by comparing image.
