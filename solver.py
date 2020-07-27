@@ -17,14 +17,12 @@ def checker(img1,img2):
         return True
 
 
-def solver(
-        img,
-        mask="data.png"):
+def solver(img):
 
     img = Image.open(img)
     pix = img.load()
 
-    letters = Image.open(mask)
+    letters = Image.open("data.png")
     ledata = letters.load()
 
     for y in range(img.size[1]):
